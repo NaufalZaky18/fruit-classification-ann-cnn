@@ -1,0 +1,66 @@
+{
+  "seed": 2026,
+  "classes": [
+    "Banana",
+    "Watermelon",
+    "Salak"
+  ],
+  "class_map": {
+    "Banana 1": "Banana",
+    "Watermelon 1": "Watermelon",
+    "Salak 1": "Salak"
+  },
+  "image_size": [
+    100,
+    100
+  ],
+  "batch_size": 32,
+  "max_epochs": 80,
+  "patience": 4,
+  "lr": 0.001,
+  "dropout": 0.2,
+  "val_ratio": 0.2,
+  "ann_specs": {
+    "ann_1": [
+      64
+    ],
+    "ann_2": [
+      128,
+      64
+    ]
+  },
+  "cnn_specs": {
+    "cnn_1": [
+      16,
+      32,
+      64
+    ],
+    "cnn_2": [
+      32,
+      32,
+      64
+    ]
+  },
+  "class_weight": {
+    "0": 0.9897959183673469,
+    "1": 1.0210526315789474,
+    "2": 0.9897959183673469
+  },
+  "scenarios": {
+    "baseline": false,
+    "augmented": true
+  },
+  "monitor": "val_loss",
+  "additional_test_ratio": 0.2,
+  "white_threshold": 240,
+  "background_probability": 0.5,
+  "background_range": [
+    0.15,
+    0.95
+  ],
+  "rotation": 0.15,
+  "zoom": 0.15,
+  "translation": 0.1,
+  "contrast": 0.2,
+  "brightness": 0.15
+}

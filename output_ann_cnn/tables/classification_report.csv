@@ -1,0 +1,41 @@
+class,precision,recall,f1-score,support,model,split
+Banana,1.0,1.0,1.0,166.0,ann_baseline,test
+Watermelon,1.0,1.0,1.0,157.0,ann_baseline,test
+Salak,1.0,1.0,1.0,162.0,ann_baseline,test
+macro avg,1.0,1.0,1.0,485.0,ann_baseline,test
+weighted avg,1.0,1.0,1.0,485.0,ann_baseline,test
+Banana,1.0,0.963855421686747,0.9815950920245399,166.0,ann_augmented,test
+Watermelon,1.0,1.0,1.0,157.0,ann_augmented,test
+Salak,0.9642857142857143,1.0,0.9818181818181818,162.0,ann_augmented,test
+macro avg,0.9880952380952381,0.9879518072289156,0.9878044246142407,485.0,ann_augmented,test
+weighted avg,0.9880706921944036,0.9876288659793815,0.9876274860425136,485.0,ann_augmented,test
+Banana,0.5263157894736842,1.0,0.6896551724137931,20.0,ann_baseline,external
+Watermelon,0.8,0.4,0.5333333333333333,20.0,ann_baseline,external
+Salak,0.6666666666666666,0.4,0.5,20.0,ann_baseline,external
+macro avg,0.664327485380117,0.6,0.5743295019157088,60.0,ann_baseline,external
+weighted avg,0.6643274853801169,0.6,0.5743295019157089,60.0,ann_baseline,external
+Banana,0.7142857142857143,1.0,0.8333333333333334,20.0,ann_augmented,external
+Watermelon,1.0,0.8,0.8888888888888888,20.0,ann_augmented,external
+Salak,1.0,0.8,0.8888888888888888,20.0,ann_augmented,external
+macro avg,0.9047619047619048,0.8666666666666667,0.8703703703703703,60.0,ann_augmented,external
+weighted avg,0.9047619047619048,0.8666666666666667,0.8703703703703703,60.0,ann_augmented,external
+Banana,1.0,1.0,1.0,166.0,cnn_baseline,test
+Watermelon,1.0,1.0,1.0,157.0,cnn_baseline,test
+Salak,1.0,1.0,1.0,162.0,cnn_baseline,test
+macro avg,1.0,1.0,1.0,485.0,cnn_baseline,test
+weighted avg,1.0,1.0,1.0,485.0,cnn_baseline,test
+Banana,1.0,1.0,1.0,166.0,cnn_augmented,test
+Watermelon,1.0,1.0,1.0,157.0,cnn_augmented,test
+Salak,1.0,1.0,1.0,162.0,cnn_augmented,test
+macro avg,1.0,1.0,1.0,485.0,cnn_augmented,test
+weighted avg,1.0,1.0,1.0,485.0,cnn_augmented,test
+Banana,0.5555555555555556,1.0,0.7142857142857143,20.0,cnn_baseline,external
+Watermelon,0.9375,0.75,0.8333333333333334,20.0,cnn_baseline,external
+Salak,1.0,0.4,0.5714285714285714,20.0,cnn_baseline,external
+macro avg,0.8310185185185185,0.7166666666666667,0.7063492063492064,60.0,cnn_baseline,external
+weighted avg,0.8310185185185186,0.7166666666666667,0.7063492063492063,60.0,cnn_baseline,external
+Banana,0.7407407407407407,1.0,0.851063829787234,20.0,cnn_augmented,external
+Watermelon,1.0,0.85,0.918918918918919,20.0,cnn_augmented,external
+Salak,1.0,0.8,0.8888888888888888,20.0,cnn_augmented,external
+macro avg,0.9135802469135802,0.8833333333333334,0.886290545865014,60.0,cnn_augmented,external
+weighted avg,0.9135802469135802,0.8833333333333333,0.886290545865014,60.0,cnn_augmented,external
