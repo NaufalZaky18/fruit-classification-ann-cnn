@@ -4,8 +4,6 @@
 
 This project compares Artificial Neural Networks (ANN) and Convolutional Neural Networks (CNN) for classifying three types of fruit: Banana, Watermelon, and Salak. Each method is evaluated with and without data augmentation.
 
-The project was conducted for the Object Detection and Recognition course, Master of Statistics, Universitas Islam Indonesia, 2026/2027.
-
 ## Dataset
 
 The main dataset is [Fruits-360 100×100](https://github.com/fruits-360/fruits-360-100x100), restricted to Banana 1, Watermelon 1, and Salak 1.
@@ -66,7 +64,7 @@ python -m pip install jupyterlab
 python -m jupyterlab
 ```
 
-Open `ANN_CNN_Final.ipynb`. Set `root_dir = Path.cwd()` in the preparation cell if JupyterLab is running from the repository root. Run all cells to reproduce the experiment. Runtime and numerical results may vary with hardware and software.
+Open `ANN_CNN_Final_Revisi.ipynb`. Set `root_dir = Path.cwd()` in the preparation cell if JupyterLab is running from the repository root. Run all cells to reproduce the experiment. Runtime and numerical results may vary with hardware and software.
 
 ## References and Data License
 
